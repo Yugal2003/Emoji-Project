@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    font-weight: 100;
+    font-size: 38px;
+    font-family: 'Roboto Mono', monospace;
+}
+.container{
+    padding: 55px 15px;
+}
+body{
+    color: white;
+    background-color: #000000;
+}
+form{
+    padding-top: 10px;
+}
+input[placeholder="Emojee Search"]{
+    font-size: 18px;
+}
+input[type="text"]{
+    padding: 3px 15px 3px 3px;
+}
+input[type=submit]{
+    padding: 3px 5px;
+}
+input[value="Search"]{
+    font-size: 18px;
+}
+input[type=submit]:hover{
+    cursor: pointer;
+    background-color: #000000;
+    color:white;
+    border: 3px solid grey;
+}
+.logo{
+    padding-left: 20px;
+    font-size: 30px;
+}
